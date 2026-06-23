@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кодификатор ЕГЭ по обществознанию 2026 — EDUcatED</title>
+  <meta name="description" content="Кодификатор ЕГЭ по обществознанию: все темы, презентации и тематические задания для подготовки к экзамену." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Чтобы добавить ссылку: найди нужный data-key и замени href="#soon" на ссылку Google Drive / Google Slides. -->
+  <style>
+    :root {
+      --navy:#071f3f; --green:#163f36; --gold:#b9894a; --gold2:#d6b77e;
+      --cream:#fbf8f1; --paper:#fffaf2; --ink:#17233b; --muted:#69758a;
+      --line:rgba(22,36,60,.12); --shadow:0 24px 70px rgba(7,31,63,.12);
+      --blue:#3b6ea8; --violet:#6655a8; --red:#b45a4a; --teal:#16706b;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:"Montserrat",Arial,sans-serif;color:var(--ink);background:
+      radial-gradient(circle at 8% -2%,rgba(185,137,74,.18),transparent 32%),
+      radial-gradient(circle at 88% 4%,rgba(22,63,54,.12),transparent 30%),
+      linear-gradient(180deg,#fbf8f1 0%,#f4ecdf 100%);line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1160px,calc(100% - 36px));margin:0 auto}
+    header{position:sticky;top:0;z-index:50;background:rgba(251,248,241,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    .nav{height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand img{width:48px;height:48px;border-radius:15px;border:1px solid rgba(22,36,60,.10);background:white;box-shadow:0 10px 24px rgba(7,31,63,.10)}
+    .brand strong{display:block;font-size:24px;letter-spacing:-.04em;color:var(--navy);line-height:1;font-weight:800}
+    .brand strong span{color:var(--gold)}
+    .brand small{display:block;margin-top:5px;color:var(--green);text-transform:uppercase;letter-spacing:.16em;font-size:8.5px;font-weight:800}
+    .top-link{font-size:13px;font-weight:700;color:var(--navy);opacity:.74}
+    .top-link:hover{opacity:1;color:var(--gold)}
+    .hero{padding:54px 0 30px}
+    .hero-card{background:rgba(255,250,242,.82);border:1px solid var(--line);border-radius:34px;box-shadow:var(--shadow);padding:42px;display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:center;overflow:hidden;position:relative}
+    .hero-card:after{content:"";position:absolute;right:-90px;top:-90px;width:260px;height:260px;border-radius:50%;background:rgba(214,183,126,.25)}
+    .kicker{font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+    h1{margin:0;color:var(--navy);font-size:clamp(34px,5.2vw,64px);line-height:1.03;letter-spacing:-.045em;font-weight:800}
+    .lead{margin:22px 0 0;max-width:720px;color:#35445f;font-size:18px;font-weight:500}
+    .hero-side{position:relative;z-index:2;background:rgba(7,31,63,.96);border-radius:28px;color:white;padding:28px}
+    .hero-side h2{margin:0 0 12px;font-size:24px;letter-spacing:-.03em;color:var(--gold2)}
+    .hero-side p{margin:0;color:rgba(255,255,255,.78);font-size:14px}
+    .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:24px}
+    .stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:16px}
+    .stat b{display:block;font-size:24px;color:white;line-height:1}
+    .stat span{display:block;margin-top:7px;font-size:12px;color:rgba(255,255,255,.72);font-weight:600}
+    .panel{padding:20px 0 34px}
+    .toolbar{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center;margin-bottom:18px}
+    .search{width:100%;height:54px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.78);padding:0 18px;font:600 15px "Montserrat";color:var(--navy);outline:none}
+    .search:focus{border-color:rgba(185,137,74,.6);box-shadow:0 0 0 4px rgba(185,137,74,.12)}
+    .filters{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+    .filter{border:1px solid var(--line);background:rgba(255,255,255,.70);border-radius:999px;min-height:42px;padding:0 15px;font:700 13px "Montserrat";color:var(--navy);cursor:pointer}
+    .filter.active,.filter:hover{background:var(--navy);color:white;border-color:var(--navy)}
+    .table-card{background:rgba(255,250,242,.86);border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow);overflow:hidden}
+    .table-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 24px;border-bottom:1px solid var(--line)}
+    .table-head h2{margin:0;color:var(--navy);font-size:25px;letter-spacing:-.035em}
+    .table-head p{margin:4px 0 0;color:var(--muted);font-size:13px;font-weight:600}
+    .count{border-radius:999px;background:rgba(185,137,74,.14);color:#7a5527;padding:10px 14px;font-size:12px;font-weight:800;white-space:nowrap}
+    table{width:100%;border-collapse:collapse;table-layout:fixed}
+    col.col-block{width:24%}
+    col.col-topic{width:52%}
+    col.col-presentation{width:12%}
+    col.col-tasks{width:12%}
+    thead,tbody{width:100%}
+    tr{border-bottom:1px solid rgba(22,36,60,.08)}
+    thead tr{border-bottom:1px solid var(--line)}
+    th{background:#f7efe4;color:#526078;text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.08em;padding:16px 18px;z-index:3;min-width:0;overflow:hidden;vertical-align:middle}
+    td{padding:18px 18px;vertical-align:middle;min-width:0;overflow:hidden}
+    tbody tr:hover{background:rgba(214,183,126,.10)}
+    th:nth-child(3),th:nth-child(4),td:nth-child(3),td:nth-child(4){text-align:center}
+    td:first-child{white-space:nowrap}
+    .block-line{display:flex;align-items:center;gap:12px;min-width:0}
+    .block{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:7px 12px;color:white;font-size:11px;font-weight:800;white-space:nowrap;max-width:190px;line-height:1.15;overflow:hidden;text-overflow:ellipsis;flex:0 1 auto}
+    .block.human{background:var(--green)} .block.economy{background:var(--gold)} .block.social{background:var(--violet)} .block.politics{background:var(--blue)} .block.law{background:var(--red)}
+    .code{display:inline-block;color:var(--muted);font-size:12px;font-weight:800;flex:0 0 auto}
+    td strong{display:block;font-size:15px;color:#182742;line-height:1.35;overflow-wrap:break-word;hyphens:auto}
+    .resource{display:inline-flex;align-items:center;justify-content:center;width:100%;max-width:128px;min-width:0;min-height:40px;border-radius:999px;border:1px solid rgba(7,31,63,.16);background:var(--navy);color:white;font-size:11.5px;font-weight:800;transition:.18s ease;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 8px}
+    .resource:hover{transform:translateY(-2px);box-shadow:0 12px 24px rgba(7,31,63,.16)}
+    .resource.empty{background:rgba(105,117,138,.12);color:#6a7281;border-color:rgba(105,117,138,.20)}
+    .resource.empty:after{content:" скоро";font-weight:700;opacity:.7}
+    .source{padding:22px 24px;color:var(--muted);font-size:12.5px;font-weight:600;background:rgba(255,255,255,.34)}
+    .source a{color:var(--gold);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+    #soon{scroll-margin-top:100px}
+    .soon-box{margin:26px 0 60px;background:rgba(7,31,63,.96);color:white;border-radius:28px;padding:28px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}
+    .soon-box h2{margin:0 0 8px;color:var(--gold2);font-size:24px;letter-spacing:-.03em}
+    .soon-box p{margin:0;color:rgba(255,255,255,.78);font-size:14px}
+    .soon-box a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;border-radius:999px;padding:0 20px;background:white;color:var(--navy);font-size:13px;font-weight:800;white-space:nowrap}
+    .hidden{display:none!important}
+
+    @media(max-width:1180px){
+      .wrap{width:calc(100% - 28px)}
+      col.col-block{width:25%}
+      col.col-topic{width:49%}
+      col.col-presentation{width:13%}
+      col.col-tasks{width:13%}
+      th,td{padding-left:14px;padding-right:14px}
+      .block{max-width:170px;font-size:10.5px;padding-left:10px;padding-right:10px}
+      .resource{font-size:11px;max-width:116px}
+    }
+    @media(max-width:900px){
+      .hero-card{grid-template-columns:1fr;padding:28px}
+      .toolbar{grid-template-columns:1fr}
+      .filters{justify-content:flex-start}
+      table,tbody{display:block;width:100%!important}
+      colgroup,thead{display:none}
+      tbody tr{display:block;width:100%!important;padding:16px 16px;border-bottom:1px solid var(--line)}
+      td{display:block;width:100%!important;padding:6px 0;border:0;text-align:left!important;overflow:visible}
+      td:first-child{display:block!important;white-space:normal}
+      .block-line{display:flex!important;align-items:center;gap:8px}
+      td:nth-child(3),td:nth-child(4){display:inline-block;width:auto!important;margin-top:10px;margin-right:8px}
+      .resource{width:auto;min-width:136px;max-width:none}
+      .soon-box{grid-template-columns:1fr}
+      .top-link{display:none}
+    }
+    @media(max-width:560px){.wrap{width:min(100% - 22px,1160px)}.hero{padding-top:28px}.hero-card{border-radius:24px;padding:24px}.brand strong{font-size:21px}.hero-side{padding:22px}.stats{grid-template-columns:1fr 1fr}.table-head{align-items:flex-start;flex-direction:column}}
+    footer{padding:28px 0 38px;color:var(--muted);font-size:13px;font-weight:600;text-align:center}
+    .hidden{display:none!important}
+
+    @media(max-width:1180px){
+      .wrap{width:calc(100% - 28px)}
+      thead tr,tbody tr{grid-template-columns:minmax(240px,270px) minmax(260px,1fr) 145px 125px}
+      th,td{padding-left:12px;padding-right:12px}
+      .block{max-width:190px;font-size:10.5px;padding-left:10px;padding-right:10px}
+      .resource{font-size:11.5px;max-width:122px}
+    }
+    @media(max-width:900px){
+      .hero-card{grid-template-columns:1fr;padding:28px}
+      .toolbar{grid-template-columns:1fr}
+      .filters{justify-content:flex-start}
+      thead{display:none}
+      table,tbody{display:block;width:100%!important}
+      tbody tr{display:block;width:100%!important;padding:16px 16px;border-bottom:1px solid var(--line)}
+      td{display:block;width:100%!important;padding:6px 0;border:0;text-align:left!important;overflow:visible}
+      td:first-child{display:flex!important;align-items:center;gap:8px}
+      td:nth-child(3),td:nth-child(4){display:inline-block;width:auto!important;margin-top:10px;margin-right:8px}
+      .resource{width:auto;min-width:136px;max-width:none}
+      .soon-box{grid-template-columns:1fr}
+      .top-link{display:none}
+    }
+    @media(max-width:560px){.wrap{width:min(100% - 22px,1160px)}.hero{padding-top:28px}.hero-card{border-radius:24px;padding:24px}.brand strong{font-size:21px}.hero-side{padding:22px}.stats{grid-template-columns:1fr 1fr}.table-head{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="EDUcatED">
+      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjEyMDAiIHZpZXdCb3g9IjAgMCAxMjAwIDEyMDAiPgogIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjEyMDAiIGZpbGw9Im5vbmUiLz4KCiAgPCEtLSBDYXQgZWFycyAtLT4KICA8cGF0aCBkPSJNMzEwIDMwMCBMNDE4IDc4IEw1MTAgMzMwIiBmaWxsPSIjMDcxRjNGIi8+CiAgPHBhdGggZD0iTTY5MCAzMzAgTDc4MiA3OCBMODkwIDMwMCIgZmlsbD0iIzA3MUYzRiIvPgoKICA8IS0tIENhdCBoZWFkIC0tPgogIDxwYXRoIGQ9Ik0yMDUgNTAwCiAgICAgICAgICAgQzIwNSAyNzAgMzcwIDE1MCA2MDAgMTUwCiAgICAgICAgICAgQzgzMCAxNTAgOTk1IDI3MCA5OTUgNTAwCiAgICAgICAgICAgQzk5NSA3MzAgODMwIDg3NSA2MDAgODc1CiAgICAgICAgICAgQzM3MCA4NzUgMjA1IDczMCAyMDUgNTAwWiIKICAgICAgICBmaWxsPSIjMDcxRjNGIi8+CgogIDwhLS0gR2xhc3NlcyAtLT4KICA8Y2lyY2xlIGN4PSI0NzAiIGN5PSI0NzAiIHI9IjExMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRDZCNzdFIiBzdHJva2Utd2lkdGg9IjQyIi8+CiAgPGNpcmNsZSBjeD0iNzMwIiBjeT0iNDcwIiByPSIxMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0Q2Qjc3RSIgc3Ryb2tlLXdpZHRoPSI0MiIvPgogIDxwYXRoIGQ9Ik01ODIgNDcwIEg2MTgiIHN0cm9rZT0iI0Q2Qjc3RSIgc3Ryb2tlLXdpZHRoPSIzNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0gRXllcyAtLT4KICA8Y2lyY2xlIGN4PSI0NzAiIGN5PSI0NzAiIHI9IjMwIiBmaWxsPSIjRkZGRkZGIi8+CiAgPGNpcmNsZSBjeD0iNzMwIiBjeT0iNDcwIiByPSIzMCIgZmlsbD0iI0ZGRkZGRiIvPgoKICA8IS0tIE5vc2UgLyBzbWlsZSAtLT4KICA8cGF0aCBkPSJNNTYyIDYxMiBDNTc4IDYzOCA2MjIgNjM4IDYzOCA2MTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIyOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0gV2hpc2tlcnM6IDMgb24gZWFjaCBzaWRlIC0tPgogIDxwYXRoIGQ9Ik01MDUgNTYwIEM0MjAgNTIwIDM0MCA1MDUgMjYwIDUxMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjE1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9Ii45MiIvPgogIDxwYXRoIGQ9Ik01MDUgNjAwIEM0MjAgNTc1IDM0MCA1NzUgMjYwIDU5OCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjE1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9Ii45MiIvPgogIDxwYXRoIGQ9Ik01MDUgNjQwIEM0MjAgNjU1IDM0MiA2OTAgMjc4IDc0MiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjE1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9Ii45MiIvPgoKICA8cGF0aCBkPSJNNjk1IDU2MCBDNzgwIDUyMCA4NjAgNTA1IDk0MCA1MTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIuOTIiLz4KICA8cGF0aCBkPSJNNjk1IDYwMCBDNzgwIDU3NSA4NjAgNTc1IDk0MCA1OTgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIuOTIiLz4KICA8cGF0aCBkPSJNNjk1IDY0MCBDNzgwIDY1NSA4NTggNjkwIDkyMiA3NDIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIuOTIiLz4KCiAgPCEtLSBPcGVuIGJvb2ssIHNwaW5lIGNlbnRlcmVkIG9uIGNhdCBoZWFkIGF4aXMgWD02MDAgLS0+CiAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAwLDcxMCkiPgogICAgPCEtLSBsZWZ0IHBhZ2UgLS0+CiAgICA8cGF0aCBkPSJNMCA5MgogICAgICAgICAgICAgQzE1NSAxNCAzMjAgMTYgNTAwIDEyNAogICAgICAgICAgICAgVjM4NQogICAgICAgICAgICAgQzMyMCAyNzAgMTUwIDI3MCAwIDM0OFoiCiAgICAgICAgICBmaWxsPSIjRDZCNzdFIi8+CiAgICA8IS0tIHJpZ2h0IHBhZ2UgLS0+CiAgICA8cGF0aCBkPSJNMTAwMCA5MgogICAgICAgICAgICAgQzg0NSAxNCA2ODAgMTYgNTAwIDEyNAogICAgICAgICAgICAgVjM4NQogICAgICAgICAgICAgQzY4MCAyNzAgODUwIDI3MCAxMDAwIDM0OFoiCiAgICAgICAgICBmaWxsPSIjRDZCNzdFIi8+CgogICAgPCEtLSBjZW50ZXJlZCBzcGluZSBleGFjdGx5IHVuZGVyIGNhdCBjZW50ZXIgLS0+CiAgICA8cGF0aCBkPSJNNTAwIDEyNAogICAgICAgICAgICAgQzQ4MCAxMDggNDcyIDk2IDUwMCA4MgogICAgICAgICAgICAgQzUyOCA5NiA1MjAgMTA4IDUwMCAxMjQKICAgICAgICAgICAgIFYzODUKICAgICAgICAgICAgIEM0ODYgMzY1IDQ4NiAzNDAgNTAwIDMxOAogICAgICAgICAgICAgQzUxNCAzNDAgNTE0IDM2NSA1MDAgMzg1WiIKICAgICAgICAgIGZpbGw9IiNCOTg5NEEiIG9wYWNpdHk9Ii45NiIvPgoKICAgIDxwYXRoIGQ9Ik01MDAgMTI0IFYzODUiIHN0cm9rZT0iIzA3MUYzRiIgc3Ryb2tlLXdpZHRoPSIxMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIuODIiLz4KCiAgICA8IS0tIHBhZ2Ugc2hhZG93cyAvIGlubmVyIGN1cnZlcyAtLT4KICAgIDxwYXRoIGQ9Ik03MiAxNjYgQzIxMCAxMDIgMzUyIDExMyA0NzUgMTk0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwNzFGM0YiIHN0cm9rZS13aWR0aD0iMTUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iLjQyIi8+CiAgICA8cGF0aCBkPSJNOTI4IDE2NiBDNzkwIDEwMiA2NDggMTEzIDUyNSAxOTQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzA3MUYzRiIgc3Ryb2tlLXdpZHRoPSIxNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIuNDIiLz4KICA8L2c+Cjwvc3ZnPg==" alt="Логотип EDUcatED">
+      <span><strong>EDU<span>cat</span>ED</strong><small>ЕГЭ по обществознанию</small></span>
+    </a>
+    <a class="top-link" href="#codifier">Перейти к темам</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-card">
+      <div>
+        <div class="kicker">11 класс · ЕГЭ-2026</div>
+        <h1>Кодификатор ЕГЭ по обществознанию</h1>
+        <p class="lead">На этой странице собраны темы, по которым удобно готовиться к экзамену: открывай нужный блок, смотри презентацию и решай тематические задания.</p>
+      </div>
+      <aside class="hero-side">
+        <h2>Как пользоваться</h2>
+        <p>Иди по темам кодификатора сверху вниз или выбери нужный блок. Материалы будут постепенно открываться по кнопкам в таблице.</p>
+        <div class="stats">
+          <div class="stat"><b>58</b><span>темы в карте</span></div>
+          <div class="stat"><b>5</b><span>блоков курса</span></div>
+          <div class="stat"><b>2</b><span>формата: теория и практика</span></div>
+          <div class="stat"><b>2026</b><span>ориентир экзамена</span></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="panel" id="codifier">
+    <div class="wrap">
+      <div class="toolbar">
+        <input class="search" id="search" type="search" placeholder="Найти тему: политика, инфляция, семья, право..." autocomplete="off">
+        <div class="filters" role="group" aria-label="Фильтр по блокам">
+          <button class="filter active" data-filter="all">Все</button>
+          <button class="filter" data-filter="human">Человек и общество</button>
+          <button class="filter" data-filter="economy">Экономика</button>
+          <button class="filter" data-filter="social">Социальные отношения</button>
+          <button class="filter" data-filter="politics">Политика</button>
+          <button class="filter" data-filter="law">Право</button>
+        </div>
+      </div>
+
+      <div class="table-card">
+        <div class="table-head">
+          <div>
+            <h2>Темы, презентации и задания</h2>
+            <p>Выбирай тему и переходи к материалам. Если кнопка помечена «скоро», ссылка ещё не добавлена.</p>
+          </div>
+          <div class="count" id="count">58 тем</div>
+        </div>
+        <table aria-label="Кодификатор ЕГЭ по обществознанию">
+          <colgroup>
+            <col class="col-block">
+            <col class="col-topic">
+            <col class="col-presentation">
+            <col class="col-tasks">
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Блок / код</th>
+              <th>Тема кодификатора</th>
+              <th>Презентация</th>
+              <th>Задания</th>
+            </tr>
+          </thead>
+          <tbody id="rows">
+            <tr data-block="human" data-search="человек и общество 1.1 общество как система">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.1</span></div></td>
+<td><strong>Общество как система</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-society-system" aria-label="Презентация по теме Общество как система">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-society-system" aria-label="Тематические задания по теме Общество как система">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.2 общество и природа">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.2</span></div></td>
+<td><strong>Общество и природа</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-society-nature" aria-label="Презентация по теме Общество и природа">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-society-nature" aria-label="Тематические задания по теме Общество и природа">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.3 культура и духовная жизнь общества">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.3</span></div></td>
+<td><strong>Культура и духовная жизнь общества</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-culture-spiritual" aria-label="Презентация по теме Культура и духовная жизнь общества">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-culture-spiritual" aria-label="Тематические задания по теме Культура и духовная жизнь общества">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.4 общественное развитие и социальный прогресс">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.4</span></div></td>
+<td><strong>Общественное развитие и социальный прогресс</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-progress" aria-label="Презентация по теме Общественное развитие и социальный прогресс">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-progress" aria-label="Тематические задания по теме Общественное развитие и социальный прогресс">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.5 глобализация и глобальные проблемы">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.5</span></div></td>
+<td><strong>Глобализация и глобальные проблемы</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-globalization" aria-label="Презентация по теме Глобализация и глобальные проблемы">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-globalization" aria-label="Тематические задания по теме Глобализация и глобальные проблемы">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.6 человек как биосоциальное существо">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.6</span></div></td>
+<td><strong>Человек как биосоциальное существо</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-human-biosocial" aria-label="Презентация по теме Человек как биосоциальное существо">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-human-biosocial" aria-label="Тематические задания по теме Человек как биосоциальное существо">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.7 потребности, способности и интересы человека">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.7</span></div></td>
+<td><strong>Потребности, способности и интересы человека</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-needs-abilities" aria-label="Презентация по теме Потребности, способности и интересы человека">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-needs-abilities" aria-label="Тематические задания по теме Потребности, способности и интересы человека">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.8 деятельность и её структура">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.8</span></div></td>
+<td><strong>Деятельность и её структура</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-activity" aria-label="Презентация по теме Деятельность и её структура">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-activity" aria-label="Тематические задания по теме Деятельность и её структура">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.9 познание, истина, формы познания">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.9</span></div></td>
+<td><strong>Познание, истина, формы познания</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-cognition-truth" aria-label="Презентация по теме Познание, истина, формы познания">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-cognition-truth" aria-label="Тематические задания по теме Познание, истина, формы познания">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.10 наука и образование">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.10</span></div></td>
+<td><strong>Наука и образование</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-science-education" aria-label="Презентация по теме Наука и образование">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-science-education" aria-label="Тематические задания по теме Наука и образование">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.11 религия, искусство, мораль">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.11</span></div></td>
+<td><strong>Религия, искусство, мораль</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-religion-art-morality" aria-label="Презентация по теме Религия, искусство, мораль">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-religion-art-morality" aria-label="Тематические задания по теме Религия, искусство, мораль">Задания</a></td>
+</tr><tr data-block="human" data-search="человек и общество 1.12 мировоззрение, свобода и ответственность">
+<td><div class="block-line"><span class="block human">Человек и общество</span><span class="code">1.12</span></div></td>
+<td><strong>Мировоззрение, свобода и ответственность</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-worldview-freedom" aria-label="Презентация по теме Мировоззрение, свобода и ответственность">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-worldview-freedom" aria-label="Тематические задания по теме Мировоззрение, свобода и ответственность">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.1 экономика как наука и хозяйство">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.1</span></div></td>
+<td><strong>Экономика как наука и хозяйство</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-economics-basic" aria-label="Презентация по теме Экономика как наука и хозяйство">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-economics-basic" aria-label="Тематические задания по теме Экономика как наука и хозяйство">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.2 факторы производства и факторные доходы">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.2</span></div></td>
+<td><strong>Факторы производства и факторные доходы</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-factors-income" aria-label="Презентация по теме Факторы производства и факторные доходы">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-factors-income" aria-label="Тематические задания по теме Факторы производства и факторные доходы">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.3 экономические системы">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.3</span></div></td>
+<td><strong>Экономические системы</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-economic-systems" aria-label="Презентация по теме Экономические системы">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-economic-systems" aria-label="Тематические задания по теме Экономические системы">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.4 рынок, спрос, предложение и конкуренция">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.4</span></div></td>
+<td><strong>Рынок, спрос, предложение и конкуренция</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-market-demand" aria-label="Презентация по теме Рынок, спрос, предложение и конкуренция">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-market-demand" aria-label="Тематические задания по теме Рынок, спрос, предложение и конкуренция">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.5 фирма, издержки, прибыль">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.5</span></div></td>
+<td><strong>Фирма, издержки, прибыль</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-firm-costs" aria-label="Презентация по теме Фирма, издержки, прибыль">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-firm-costs" aria-label="Тематические задания по теме Фирма, издержки, прибыль">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.6 предпринимательство и источники финансирования бизнеса">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.6</span></div></td>
+<td><strong>Предпринимательство и источники финансирования бизнеса</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-entrepreneurship" aria-label="Презентация по теме Предпринимательство и источники финансирования бизнеса">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-entrepreneurship" aria-label="Тематические задания по теме Предпринимательство и источники финансирования бизнеса">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.7 финансовые институты, деньги, банки">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.7</span></div></td>
+<td><strong>Финансовые институты, деньги, банки</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-money-banks" aria-label="Презентация по теме Финансовые институты, деньги, банки">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-money-banks" aria-label="Тематические задания по теме Финансовые институты, деньги, банки">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.8 рынок труда, занятость и безработица">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.8</span></div></td>
+<td><strong>Рынок труда, занятость и безработица</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-labor-market" aria-label="Презентация по теме Рынок труда, занятость и безработица">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-labor-market" aria-label="Тематические задания по теме Рынок труда, занятость и безработица">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.9 инфляция, экономический рост и развитие">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.9</span></div></td>
+<td><strong>Инфляция, экономический рост и развитие</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-inflation-growth" aria-label="Презентация по теме Инфляция, экономический рост и развитие">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-inflation-growth" aria-label="Тематические задания по теме Инфляция, экономический рост и развитие">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.10 роль государства в экономике, налоги, бюджет">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.10</span></div></td>
+<td><strong>Роль государства в экономике, налоги, бюджет</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-state-economy" aria-label="Презентация по теме Роль государства в экономике, налоги, бюджет">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-state-economy" aria-label="Тематические задания по теме Роль государства в экономике, налоги, бюджет">Задания</a></td>
+</tr><tr data-block="economy" data-search="экономика 2.11 мировая экономика и международная торговля">
+<td><div class="block-line"><span class="block economy">Экономика</span><span class="code">2.11</span></div></td>
+<td><strong>Мировая экономика и международная торговля</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-world-economy" aria-label="Презентация по теме Мировая экономика и международная торговля">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-world-economy" aria-label="Тематические задания по теме Мировая экономика и международная торговля">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.1 социальная структура общества и социальные группы">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.1</span></div></td>
+<td><strong>Социальная структура общества и социальные группы</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-social-structure" aria-label="Презентация по теме Социальная структура общества и социальные группы">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-social-structure" aria-label="Тематические задания по теме Социальная структура общества и социальные группы">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.2 социальная стратификация и социальная мобильность">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.2</span></div></td>
+<td><strong>Социальная стратификация и социальная мобильность</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-stratification" aria-label="Презентация по теме Социальная стратификация и социальная мобильность">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-stratification" aria-label="Тематические задания по теме Социальная стратификация и социальная мобильность">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.3 социальные статусы и роли">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.3</span></div></td>
+<td><strong>Социальные статусы и роли</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-status-roles" aria-label="Презентация по теме Социальные статусы и роли">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-status-roles" aria-label="Тематические задания по теме Социальные статусы и роли">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.4 социализация личности">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.4</span></div></td>
+<td><strong>Социализация личности</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-socialization" aria-label="Презентация по теме Социализация личности">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-socialization" aria-label="Тематические задания по теме Социализация личности">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.5 социальные нормы и социальный контроль">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.5</span></div></td>
+<td><strong>Социальные нормы и социальный контроль</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-norms-control" aria-label="Презентация по теме Социальные нормы и социальный контроль">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-norms-control" aria-label="Тематические задания по теме Социальные нормы и социальный контроль">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.6 отклоняющееся поведение и социальные санкции">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.6</span></div></td>
+<td><strong>Отклоняющееся поведение и социальные санкции</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-deviation" aria-label="Презентация по теме Отклоняющееся поведение и социальные санкции">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-deviation" aria-label="Тематические задания по теме Отклоняющееся поведение и социальные санкции">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.7 семья и брак">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.7</span></div></td>
+<td><strong>Семья и брак</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-family" aria-label="Презентация по теме Семья и брак">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-family" aria-label="Тематические задания по теме Семья и брак">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.8 молодёжь как социальная группа">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.8</span></div></td>
+<td><strong>Молодёжь как социальная группа</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-youth" aria-label="Презентация по теме Молодёжь как социальная группа">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-youth" aria-label="Тематические задания по теме Молодёжь как социальная группа">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.9 этнические общности и межнациональные отношения">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.9</span></div></td>
+<td><strong>Этнические общности и межнациональные отношения</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-ethnos" aria-label="Презентация по теме Этнические общности и межнациональные отношения">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-ethnos" aria-label="Тематические задания по теме Этнические общности и межнациональные отношения">Задания</a></td>
+</tr><tr data-block="social" data-search="социальные отношения 3.10 социальный конфликт и способы его разрешения">
+<td><div class="block-line"><span class="block social">Социальные отношения</span><span class="code">3.10</span></div></td>
+<td><strong>Социальный конфликт и способы его разрешения</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-conflict" aria-label="Презентация по теме Социальный конфликт и способы его разрешения">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-conflict" aria-label="Тематические задания по теме Социальный конфликт и способы его разрешения">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.1 политическая система общества">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.1</span></div></td>
+<td><strong>Политическая система общества</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-political-system" aria-label="Презентация по теме Политическая система общества">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-political-system" aria-label="Тематические задания по теме Политическая система общества">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.2 государство, его признаки и функции">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.2</span></div></td>
+<td><strong>Государство, его признаки и функции</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-state" aria-label="Презентация по теме Государство, его признаки и функции">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-state" aria-label="Тематические задания по теме Государство, его признаки и функции">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.3 форма государства">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.3</span></div></td>
+<td><strong>Форма государства</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-state-form" aria-label="Презентация по теме Форма государства">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-state-form" aria-label="Тематические задания по теме Форма государства">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.4 политический режим, демократия, авторитаризм, тоталитаризм">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.4</span></div></td>
+<td><strong>Политический режим, демократия, авторитаризм, тоталитаризм</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-political-regime" aria-label="Презентация по теме Политический режим, демократия, авторитаризм, тоталитаризм">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-political-regime" aria-label="Тематические задания по теме Политический режим, демократия, авторитаризм, тоталитаризм">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.5 гражданское общество и правовое государство">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.5</span></div></td>
+<td><strong>Гражданское общество и правовое государство</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-civil-society" aria-label="Презентация по теме Гражданское общество и правовое государство">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-civil-society" aria-label="Тематические задания по теме Гражданское общество и правовое государство">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.6 политическое участие и политическая культура">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.6</span></div></td>
+<td><strong>Политическое участие и политическая культура</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-participation-culture" aria-label="Презентация по теме Политическое участие и политическая культура">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-participation-culture" aria-label="Тематические задания по теме Политическое участие и политическая культура">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.7 выборы, избирательные системы, референдум">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.7</span></div></td>
+<td><strong>Выборы, избирательные системы, референдум</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-elections" aria-label="Презентация по теме Выборы, избирательные системы, референдум">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-elections" aria-label="Тематические задания по теме Выборы, избирательные системы, референдум">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.8 политические партии и общественно-политические движения">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.8</span></div></td>
+<td><strong>Политические партии и общественно-политические движения</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-parties" aria-label="Презентация по теме Политические партии и общественно-политические движения">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-parties" aria-label="Тематические задания по теме Политические партии и общественно-политические движения">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.9 органы государственной власти российской федерации">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.9</span></div></td>
+<td><strong>Органы государственной власти Российской Федерации</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-russian-authorities" aria-label="Презентация по теме Органы государственной власти Российской Федерации">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-russian-authorities" aria-label="Тематические задания по теме Органы государственной власти Российской Федерации">Задания</a></td>
+</tr><tr data-block="politics" data-search="политика 4.10 федеративное устройство российской федерации">
+<td><div class="block-line"><span class="block politics">Политика</span><span class="code">4.10</span></div></td>
+<td><strong>Федеративное устройство Российской Федерации</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-federalism" aria-label="Презентация по теме Федеративное устройство Российской Федерации">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-federalism" aria-label="Тематические задания по теме Федеративное устройство Российской Федерации">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.1 право в системе социальных норм">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.1</span></div></td>
+<td><strong>Право в системе социальных норм</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-law-norms" aria-label="Презентация по теме Право в системе социальных норм">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-law-norms" aria-label="Тематические задания по теме Право в системе социальных норм">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.2 источники права и нормативный правовой акт">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.2</span></div></td>
+<td><strong>Источники права и нормативный правовой акт</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-sources-law" aria-label="Презентация по теме Источники права и нормативный правовой акт">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-sources-law" aria-label="Тематические задания по теме Источники права и нормативный правовой акт">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.3 система российского права. отрасли права">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.3</span></div></td>
+<td><strong>Система российского права. Отрасли права</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-law-system" aria-label="Презентация по теме Система российского права. Отрасли права">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-law-system" aria-label="Тематические задания по теме Система российского права. Отрасли права">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.4 правоотношения, правонарушения и юридическая ответственность">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.4</span></div></td>
+<td><strong>Правоотношения, правонарушения и юридическая ответственность</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-legal-relations" aria-label="Презентация по теме Правоотношения, правонарушения и юридическая ответственность">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-legal-relations" aria-label="Тематические задания по теме Правоотношения, правонарушения и юридическая ответственность">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.5 конституция российской федерации и основы конституционного строя">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.5</span></div></td>
+<td><strong>Конституция Российской Федерации и основы конституционного строя</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-constitution" aria-label="Презентация по теме Конституция Российской Федерации и основы конституционного строя">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-constitution" aria-label="Тематические задания по теме Конституция Российской Федерации и основы конституционного строя">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.6 права, свободы и обязанности человека и гражданина">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.6</span></div></td>
+<td><strong>Права, свободы и обязанности человека и гражданина</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-rights-duties" aria-label="Презентация по теме Права, свободы и обязанности человека и гражданина">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-rights-duties" aria-label="Тематические задания по теме Права, свободы и обязанности человека и гражданина">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.7 гражданство российской федерации">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.7</span></div></td>
+<td><strong>Гражданство Российской Федерации</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-citizenship" aria-label="Презентация по теме Гражданство Российской Федерации">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-citizenship" aria-label="Тематические задания по теме Гражданство Российской Федерации">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.8 гражданское право">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.8</span></div></td>
+<td><strong>Гражданское право</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-civil-law" aria-label="Презентация по теме Гражданское право">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-civil-law" aria-label="Тематические задания по теме Гражданское право">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.9 семейное право">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.9</span></div></td>
+<td><strong>Семейное право</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-family-law" aria-label="Презентация по теме Семейное право">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-family-law" aria-label="Тематические задания по теме Семейное право">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.10 трудовое право">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.10</span></div></td>
+<td><strong>Трудовое право</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-labor-law" aria-label="Презентация по теме Трудовое право">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-labor-law" aria-label="Тематические задания по теме Трудовое право">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.11 административное право">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.11</span></div></td>
+<td><strong>Административное право</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-administrative-law" aria-label="Презентация по теме Административное право">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-administrative-law" aria-label="Тематические задания по теме Административное право">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.12 уголовное право">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.12</span></div></td>
+<td><strong>Уголовное право</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-criminal-law" aria-label="Презентация по теме Уголовное право">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-criminal-law" aria-label="Тематические задания по теме Уголовное право">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.13 судебная система и правоохранительные органы">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.13</span></div></td>
+<td><strong>Судебная система и правоохранительные органы</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-courts" aria-label="Презентация по теме Судебная система и правоохранительные органы">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-courts" aria-label="Тематические задания по теме Судебная система и правоохранительные органы">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.14 процессуальное право: гражданский, административный, уголовный процесс">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.14</span></div></td>
+<td><strong>Процессуальное право: гражданский, административный, уголовный процесс</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-procedure" aria-label="Презентация по теме Процессуальное право: гражданский, административный, уголовный процесс">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-procedure" aria-label="Тематические задания по теме Процессуальное право: гражданский, административный, уголовный процесс">Задания</a></td>
+</tr><tr data-block="law" data-search="право 5.15 международное право и защита прав человека">
+<td><div class="block-line"><span class="block law">Право</span><span class="code">5.15</span></div></td>
+<td><strong>Международное право и защита прав человека</strong></td>
+<td><a class="resource empty" href="#soon" data-key="presentation-international-law" aria-label="Презентация по теме Международное право и защита прав человека">Презентация</a></td>
+<td><a class="resource empty" href="#soon" data-key="tasks-international-law" aria-label="Тематические задания по теме Международное право и защита прав человека">Задания</a></td>
+</tr>
+          </tbody>
+        </table>
+        <div class="source">
+          Основа страницы — структура подготовки по кодификатору ЕГЭ по обществознанию. Официальные документы ЕГЭ-2026 размещаются на сайте <a href="https://fipi.ru/ege/demoversii-specifikacii-kodifikatory" target="_blank" rel="noopener">ФИПИ</a>.
+        </div>
+      </div>
+
+      <div class="soon-box" id="soon">
+        <div>
+          <h2>Материалы добавляются постепенно</h2>
+          <p>Если ссылка пока не открывается, значит презентация или подборка заданий ещё готовится. Возвращайся к этой странице во время подготовки.</p>
+        </div>
+        <a href="#codifier">Вернуться к таблице</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">EDUcatED · Образование без случайных решений</div>
+</footer>
+
+<script>
+  const search = document.getElementById('search');
+  const rows = [...document.querySelectorAll('#rows tr')];
+  const buttons = [...document.querySelectorAll('.filter')];
+  const count = document.getElementById('count');
+  let currentFilter = 'all';
+
+  function applyFilters() {
+    const q = search.value.trim().toLowerCase();
+    let visible = 0;
+    rows.forEach(row => {
+      const blockOk = currentFilter === 'all' || row.dataset.block === currentFilter;
+      const searchOk = !q || row.dataset.search.includes(q);
+      const show = blockOk && searchOk;
+      row.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+    count.textContent = visible + ' ' + word(visible, ['тема','темы','тем']);
+  }
+
+  function word(n, forms) {
+    n = Math.abs(n) % 100;
+    const n1 = n % 10;
+    if (n > 10 && n < 20) return forms[2];
+    if (n1 > 1 && n1 < 5) return forms[1];
+    if (n1 === 1) return forms[0];
+    return forms[2];
+  }
+
+  search.addEventListener('input', applyFilters);
+  buttons.forEach(btn => btn.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    applyFilters();
+  }));
+</script>
+</body>
+</html>
